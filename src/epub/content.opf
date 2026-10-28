@@ -33,14 +33,12 @@
 		<dc:subject id="subject-1">African Americans -- Fiction</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">sh2007100196</meta>
-		<meta property="schema:genre">TAG</meta>
-		<meta property="schema:abstract">DESCRIPTION</meta>
-		<dc:description>
-			LONG_DESCRIPTION
-		</dc:description>
+		<meta property="schema:genre">Fiction</meta>
+		<meta property="schema:abstract">A young biracial woman becomes the target of a wealthy white man’s advances in Reconstruction Era Virginia.</meta>
+		<dc:description>None<p>Erma, an educated biracial woman living in Virginia in the years following the Civil War, takes a job as a white woman’s servant to support herself and her brother John. Her decision puts her at odds with the upper class Black community and in the path of a wealthy white man, James Lawson, who seeks to woo her by any means necessary. His schemes lead to Erma and her brother into poverty and desperation, and John commits a crime of passion. These tragedies uncover the forgotten truth of Erma's parentage and how much the odds have been stacked against her as a black woman in a sexist, racist society.</p> <p>A social activist and supporter of W.E.B. Du Bois, <a href="https://standardebooks.org/ebooks/sutton-e-griggs">Sutton E. Griggs</a> writes about the social issues facing Black Americans in the aftermath of the Civil War through melodrama; Erma’s beauty and goodness endure despite cruelty and tragedy. For Grigg's audience of African Americans, his works were an unspairing look at the discrimination and violence their community faced at the beginning of the twentieth century.</p></dc:description>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/36033</dc:source>
-		<dc:source>PAGE_SCANS_URL</dc:source>
+		<dc:source>https://archive.org/details/overshadowednove00grigrich</dc:source>
 		<meta property="schema:wordCount">WORD_COUNT</meta>
 		<meta property="schema:educationalLevel">READING_EASE</meta>
 		<link href="EBOOK_WIKI_URL" rel="schema:sameAs"/>
@@ -49,30 +47,32 @@
 		<link href="https://github.com/standardebooks/sutton-e-griggs_overshadowed" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Sutton E. Griggs</dc:creator>
 		<meta property="file-as" refines="#author">Griggs, Sutton E.</meta>
-		<meta property="schema:alternateName" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
+		<meta property="schema:alternateName" refines="#author">Sutton Elbert Griggs</meta>
 		<link href="https://en.wikipedia.org/wiki/Sutton_E._Griggs" refines="#author" rel="schema:sameAs"/>
 		<link href="https://id.loc.gov/authorities/names/n50031649.html" refines="#author" rel="schema:sameAs"/>
+		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVER_ARTIST_NAME</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<link href="COVER_ARTIST_WIKI_URL" refines="#artist" rel="schema:sameAs"/>
-		<link href="COVER_ARTIST_NACOAF_URI" refines="#artist" rel="schema:sameAs"/>
+		<meta property="role" refines="#author" scheme="marc:relators">dto</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">wpr</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">wpr</meta>
+		<dc:contributor id="artist">Eastman Johnson</dc:contributor>
+		<meta property="file-as" refines="#artist">Johnson, Eastman</meta>
+		<meta property="schema:alternateName" refines="#author">Jonathan Eastman Johnson</meta>
+		<link href="https://en.wikipedia.org/wiki/Eastman_Johnson" refines="#artist" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n83177936.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER_1_NAME</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_1_SORT</meta>
-		<link href="TRANSCRIBER_1_URL" refines="#transcriber-1" rel="schema:url"/>
+		<dc:contributor id="transcriber-1">Suzanne Shell</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Shell, Suzanne</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-2">TRANSCRIBER_2_NAME</dc:contributor>
-		<meta property="file-as" refines="#transcriber-2">TRANSCRIBER_2_SORT</meta>
-		<link href="TRANSCRIBER_2_URL" refines="#transcriber-2" rel="schema:url"/>
+		<dc:contributor id="transcriber-2">Mary Meehan</dc:contributor>
+		<meta property="file-as" refines="#transcriber-2">Meehan, Mary</meta>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-3">Distributed Proofreaders</dc:contributor>
 		<meta property="file-as" refines="#transcriber-3">Distributed Proofreaders</meta>
 		<link href="https://www.pgdp.net/" refines="#transcriber-3" rel="schema:url"/>
 		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER_NAME</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<link href="PRODUCER_URL" refines="#producer-1" rel="schema:url"/>
+		<dc:contributor id="producer-1">Lauren LeBlanc</dc:contributor>
+		<meta property="file-as" refines="#producer-1">LeBlanc, Lauren</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
