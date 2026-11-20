@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+	<file path="chapter-7.xhtml">
+		<ignore code="t-030">
+			<line>19</line>
+			<line>36</line>
+			<line>38</line>
+			<line>44</line>
+			<line>46</line>
+			<line>51</line>
+			<reason>Initialisms in the text have spaces and dashes to illustrate the speech quality of the character Rev. Josiah Nerve.</reason>
+		</ignore>
+		<ignore code="t-033">
+			<line>28</line>
+			<line>32</line>
+			<line>34</line>
+			<line>36</line>
+			<line>38</line>
+			<line>40</line>
+			<line>42</line>
+			<line>44</line>
+			<line>46</line>
+			<line>48</line>
+			<line>50</line>
+			<line>51</line>
+			<reason>Spaces after dashes match the spacing of the scans for Nerve's speech.</reason>
+		</ignore>
+		<ignore code="y-004">
+			<line>40</line>
+			<reason>Quotation mark after the dash is not miscurled as the dash is part of Nerve's speech.</reason>
+		</ignore>
+		<ignore code="y-024">
+			<line>38</line>
+			<reason>Dash is again part of Nerve's speech and does not need to be changed.</reason>
+		</ignore>
+		<ignore code="y-028">
+			<line>44</line>
+			<line>51</line>
+			<reason>Spacing for semantics reflect's Nerve's speech as in the scans.</reason>
+		</ignore>
+	</file>
+	<file path="chapter-8.xhtml">
+		<ignore code="t-030">
+			<line>28</line>
+			<line>29</line>
+			<reason>Initialisms in the text have spaces and dashes to illustrate the speech quality of the character Rev. Josiah Nerve.</reason>
+		</ignore>
+		<ignore code="t-033">
+			<line>27</line>
+			<line>28</line>
+			<line>29</line>
+			<reason>Spaces after dashes match the spacing of the scans for Nerve's speech.</reason>
+		</ignore>
+		<ignore code="y-004">
+			<line>28</line>
+			<reason>Quotation mark after the dash is not miscurled as the dash is part of Nerve's speech.</reason>
+		</ignore>
+		<ignore code="y-028">
+			<line>28</line>
+			<line>29</line>
+			<reason>Spacing for semantics reflect's Nerve's speech as in the scans.</reason>
+		</ignore>
+		<ignore code="y-031">
+			<line>23</line>
+			<line>25</line>
+			<reason>Dialog tags have correct punctuation as “sister” is used as a general term for these women.</reason>
+		</ignore>
+		<ignore code="y-038">
+			<line>27</line>
+			<line>28</line>
+			<reason>Dash after punctuation is there to represent Nerve's speech pattern.</reason>
+		</ignore>
+	</file>
+</se-lint-ignore>
